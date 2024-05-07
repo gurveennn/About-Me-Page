@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Average&display=swap");
+body {
+  font-family: "average";
+  background-color: #eef7ff;
+  color: #4d869c;
+}
+
+h1 {
+  font-size: 170px;
+  text-align: center;
+  margin: 80px auto 40px auto;
+}
+
+.first {
+  display: inline-block;
+  -webkit-animation: bop 1s infinite alternate;
+          animation: bop 1s infinite alternate;
+}
+
+.last {
+  display: inline-block;
+  -webkit-animation: bop 1s infinite alternate;
+          animation: bop 1s infinite alternate;
+}
+
+p {
+  font-family: "average";
+  background-color: #cde8e5;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  max-width: 60vw;
+  margin: 0 auto 0 auto;
+  padding: 20px 20px 20px 20px;
+}
+
+@-webkit-keyframes bop {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes bop {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.sky img {
+  position: absolute;
+}
+
+.flower1 {
+  top: 10px;
+  left: 100px;
+  trasform: scale(0.2);
+}
+
+.flower2 {
+  top: 80px;
+  left: 1100px;
+}
